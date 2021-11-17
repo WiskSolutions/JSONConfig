@@ -8,7 +8,7 @@ let package = Package(
 		.library(name: "JSONConfig", targets: ["JSONConfig"])
 	],
     dependencies: [
-		.package(url: "https://github.com/PerfectlySoft/PerfectLib.git", from: "3.0.0")
+		.package(url: "https://github.com/WiskSolutions/Perfect.git", from: "4.0.2")
 	],
 	targets: [
 		.target(name: "JSONConfig", dependencies: ["PerfectLib"])
