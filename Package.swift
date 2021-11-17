@@ -1,9 +1,10 @@
-// swift-tools-version:4.2
-// Generated automatically by Perfect Assistant Application
-// Date: 2016-09-13 13:48:18 +0000
+// swift-tools-version:5.0
 import PackageDescription
 let package = Package(
     name: "JSONConfig",
+    platforms: [
+        .macOS(.v10_13),
+    ],
 	products: [
 		.library(name: "JSONConfig", targets: ["JSONConfig"])
 	],
