@@ -9,7 +9,7 @@ let package = Package(
 		.library(name: "JSONConfig", targets: ["JSONConfig"])
 	],
     dependencies: [
-		.package(url: "https://github.com/WiskSolutions/Perfect.git", from: "4.0.2")
+		.package(url: "https://github.com/WiskSolutions/PerfectLib.git", from: "4.0.2")
 	],
 	targets: [
 		.target(name: "JSONConfig", dependencies: ["PerfectLib"])
